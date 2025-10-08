@@ -171,8 +171,9 @@ function App() {
       <Nave />
       <div className="mt-8"></div>
       
-        <Route path="/" element={<Navigate to="/home" replace />} />
             <Routes>
+                    
+        <Route path="/" element={<Navigate to="/home" replace />} />
         <Route
           path="/home"
           element={
