@@ -63,7 +63,7 @@ function App() {
       <div className="mt-8"></div>
       <Routes>
         <Route
-          path="/"
+          path="/home"
           element={
             <>
               <Hero />
@@ -77,6 +77,8 @@ function App() {
             </>
           }
         />
+        
+        <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/add" element={<Add addProduct={addProduct} />} />
 
         {/* Edit route */}
