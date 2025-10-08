@@ -170,7 +170,9 @@ function App() {
       <Nav />
       <Nave />
       <div className="mt-8"></div>
-      <Routes>
+      
+        <Route path="/" element={<Navigate to="/home" replace />} />
+            <Routes>
         <Route
           path="/home"
           element={
@@ -186,7 +188,6 @@ function App() {
             </>
           }
         />
-        <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/add" element={<Add addProduct={addProduct} />} />
         <Route path="/edit/:id" element={<Add products={products} editProduct={editProduct} />} />
         <Route path="/register" element={<Login />} />
