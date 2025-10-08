@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sachinramasamy-cloud.github.io/zoho",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
