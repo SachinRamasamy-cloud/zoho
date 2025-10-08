@@ -5,7 +5,7 @@ import Hcards from './pages/Hcards'
 import Detail from './pages/Detail'
 import Add from './pages/Add'
 import React, { useState, useEffect } from 'react'
-import { HashRouter as Routes, Route, useNavigate } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import Topcat from './pages/Topcat'
 import Acard from './pages/Acard'
 import Hhcard from './pages/Hhcard'
